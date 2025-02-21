@@ -162,9 +162,7 @@
 
         // Load slides from localStorage
         let slidesData = JSON.parse(localStorage.getItem('slides')) || [
-            'https://catholicoutlook.org/wp-content/uploads/2020/03/To-clothe-the-naked-lauren-fleischmann-R2aodqJn3b8-unsplash-A.jpg',
-            'https://images.squarespace-cdn.com/content/v1/6600300b3fdec83fcb1a2c69/c4fa7532-80bd-4ca8-b26e-e4748fe9808e/clothing-drive.jpg',
-            'https://png.pngtree.com/background/20230612/original/pngtree-many-different-clothe-styles-are-hung-out-on-a-rack-picture-image_3175451.jpg'
+          
         ];
         const slideshowContainer = document.querySelector('#home .relative');
         slidesData.forEach((url, index) => {
